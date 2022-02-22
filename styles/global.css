@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+
+.container-logo {
+    background-color: #ffc107;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    height: 117px;
+    
+}
+
+nav {
+    background-color: #FFA000;
+    text-align: center;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item-link {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 15px 30px;
+    
+}
+
+.container-main h1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    color:#FFA000;
+    margin-left: 122px;
+    margin-top: 104px;
+    margin-bottom: 69px;
+    width: 440px;
+    height: 61px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p, button {
+    margin:0;
+    padding: 0;
+}
+
+#button {
+    color: #fff;
+    background: rgb(4, 68, 4);
+    width: 185px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 116px;
+    font-family: Montserrat;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 83px;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 83px;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 83px;
+    align-content: space-around;
+    justify-content: center;
+    
+}
+
+
+
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 345px;
+    height: 342px;
+}
+
+.item p {
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.container-footer {
+    text-align: left;
+    background-color: #ffc107;
+    display: flex;
+    margin-top: 303px;
+    height: 119px;
+}
+
+#logo2 {
+   margin-top: 18px;
+   margin-bottom: 17px;
+}
+
+
+#footer-texto {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: lowercase;
+    padding-top: 51px;
+    padding-bottom: 46px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 38px;
+}
+
